@@ -1,12 +1,13 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
 public class PlayerEvents
 {
-    //create tower or house on Vector2(float, float) with name = "string"
-    public static UnityEvent<float, float, string> createBuild = new UnityEvent<float, float, string>();
-
-    
+    public static UnityEvent<Unit> clickUnit = new UnityEvent<Unit>();
+    public static UnityEvent<GameObject> deActivateUnit = new UnityEvent<GameObject>();
+    public static UnityEvent<GameObject> clickPlayer = new UnityEvent<GameObject>();
+    public static UnityEvent<GameObject> clickFriend = new UnityEvent<GameObject>();
+    public static UnityEvent<GameObject> clickEnemy = new UnityEvent<GameObject>();
+    public static UnityEvent<GameObject> drop = new UnityEvent<GameObject>();
+    public static UnityEvent<Vector3> moveTo = new UnityEvent<Vector3>();
 }

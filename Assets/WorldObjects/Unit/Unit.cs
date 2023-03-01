@@ -1,36 +1,49 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
-public class Unit : MonoBehaviour
+public enum UnitType 
+{ 
+    PLAYER,
+    FRIENDLY,
+    ENEMY,
+}
+
+public class Unit : WorldObject
 {
+    public UnitType unitType = UnitType.FRIENDLY;
     public int maxHealth = 100;
     public int health = 100;
     public int speed = 10;
-    private Rigidbody m_Rigidbody;
+
+    private NavMeshAgent m_agent;
 
     public void ApplyDamage(int damage)
     {
         health = Mathf.Clamp(health - damage, 0, maxHealth);
     }
-    public void Walk()
+
+    protected override void Start()
     {
-        m_Rigidbody.velocity = transform.forward * speed * Time.deltaTime;
+        base.Start();
+        m_agent = GetComponent<NavMeshAgent>();
     }
-    private void Start()
+
+    protected override void OnMouseDown()
     {
-        m_Rigidbody = GetComponent<Rigidbody>();
+        base.OnMouseDown();
+        PlayerEvents.clickUnit.Invoke(this);
     }
-    private void Update()
+
+    public virtual void Activation()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            print(transform.forward);
-            Walk();
-        }
+        return;
     }
-    private void OnMouseDown()
+    public virtual void DeActivation()
     {
-        print(gameObject.name);
+        return;
+    }
+    public virtual void MoveTo(Vector3 destination)
+    {
+        m_agent.destination = destination;
     }
 }
