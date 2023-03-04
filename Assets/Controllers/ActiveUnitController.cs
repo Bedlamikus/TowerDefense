@@ -24,7 +24,7 @@ public class ActiveUnitController : MonoBehaviour
         if (activeUnit.unitType == UnitType.PLAYER 
             && unit.unitType == UnitType.ENEMY)
         {
-            print("Attack!!!!!");//TODO ....... player.attack(enemy);
+            activeUnit.ChaseTheGameObject(unit.gameObject);
             return;
         }
         if (activeUnit.unitType == UnitType.ENEMY
