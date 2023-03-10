@@ -8,6 +8,7 @@ public class Player : Unit
     {
         base.Start();
         unitType = UnitType.PLAYER;
+        gameObject.SetActive(false);
     }
 
     public override void Activation()

@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class WorldObject : MonoBehaviour
@@ -11,12 +9,19 @@ public class WorldObject : MonoBehaviour
     {
         m_activeUnit = FindObjectOfType<ActiveUnitController>();
         m_camera = Camera.main;
+        gameObject.SetActive(false);
     }
 
     protected virtual void OnMouseDown()
     {
         return;
     }
+
+    protected void Init()
+    {
+        gameObject.SetActive(true);
+    }
+
 
     public Vector3 GetVectorClick()
     {

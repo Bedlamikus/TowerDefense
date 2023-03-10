@@ -28,4 +28,10 @@ public class IconFace : MonoBehaviour
     {
         icon.gameObject.SetActive(false);
     }
+
+    public void MouseDown()
+    {
+        PlayerEvents.deActivateUnit.Invoke(null);
+        HideFace();
+    }
 }

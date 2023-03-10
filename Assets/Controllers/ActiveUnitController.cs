@@ -10,6 +10,7 @@ public class ActiveUnitController : MonoBehaviour
     {
         PlayerEvents.clickUnit.AddListener(SetUnits);
         PlayerEvents.moveTo.AddListener(MoveTo);
+        PlayerEvents.deActivateUnit.AddListener(UnLink);
     }
 
     private void SetUnits(Unit unit)
@@ -58,8 +59,9 @@ public class ActiveUnitController : MonoBehaviour
         get{ return activeUnit;}
     }
 
-    public void UnLink()
+    public void UnLink(GameObject _)
     {
+        activeUnit.DeActivation();
         activeUnit = null;
     }
 }

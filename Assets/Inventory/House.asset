@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb4ecf446ce48fd489b58afe043f49fd, type: 3}
+  m_Name: House
+  m_EditorClassIdentifier: 
+  width: 3
+  depth: 3
+  height: 3
+  blocks:
+  - {fileID: 11400000, guid: 72bdcccfec7307d4a904a77c8d462f84, type: 2}
+  - {fileID: 11400000, guid: b942d91f77c71e24b8d5db3e45233c74, type: 2}
+  - {fileID: 11400000, guid: 72bdcccfec7307d4a904a77c8d462f84, type: 2}
+  - {fileID: 11400000, guid: 72bdcccfec7307d4a904a77c8d462f84, type: 2}
+  - {fileID: 11400000, guid: 72bdcccfec7307d4a904a77c8d462f84, type: 2}
+  - {fileID: 11400000, guid: 72bdcccfec7307d4a904a77c8d462f84, type: 2}
+  - {fileID: 11400000, guid: 72bdcccfec7307d4a904a77c8d462f84, type: 2}
+  - {fileID: 11400000, guid: 72bdcccfec7307d4a904a77c8d462f84, type: 2}
+  - {fileID: 11400000, guid: b942d91f77c71e24b8d5db3e45233c74, type: 2}
+  - {fileID: 11400000, guid: 72bdcccfec7307d4a904a77c8d462f84, type: 2}
+  - {fileID: 11400000, guid: 72bdcccfec7307d4a904a77c8d462f84, type: 2}
+  - {fileID: 11400000, guid: 72bdcccfec7307d4a904a77c8d462f84, type: 2}
+  - {fileID: 11400000, guid: 7d8277739c686ff4b97b8c5b05df3690, type: 2}
+  - {fileID: 11400000, guid: 7d8277739c686ff4b97b8c5b05df3690, type: 2}
+  - {fileID: 11400000, guid: 7d8277739c686ff4b97b8c5b05df3690, type: 2}
+  - {fileID: 11400000, guid: 7d8277739c686ff4b97b8c5b05df3690, type: 2}
+  - {fileID: 11400000, guid: 7d8277739c686ff4b97b8c5b05df3690, type: 2}
+  - {fileID: 11400000, guid: 7d8277739c686ff4b97b8c5b05df3690, type: 2}
+  - {fileID: 11400000, guid: 7d8277739c686ff4b97b8c5b05df3690, type: 2}
+  - {fileID: 11400000, guid: 7d8277739c686ff4b97b8c5b05df3690, type: 2}
+  - {fileID: 11400000, guid: 7d8277739c686ff4b97b8c5b05df3690, type: 2}
+  - {fileID: 11400000, guid: 7d8277739c686ff4b97b8c5b05df3690, type: 2}
+  - {fileID: 11400000, guid: 7d8277739c686ff4b97b8c5b05df3690, type: 2}
+  - {fileID: 11400000, guid: 7d8277739c686ff4b97b8c5b05df3690, type: 2}
+  - {fileID: 11400000, guid: 7d8277739c686ff4b97b8c5b05df3690, type: 2}
+  - {fileID: 11400000, guid: 7d8277739c686ff4b97b8c5b05df3690, type: 2}
+  - {fileID: 11400000, guid: 7d8277739c686ff4b97b8c5b05df3690, type: 2}
+  - {fileID: 11400000, guid: 7d8277739c686ff4b97b8c5b05df3690, type: 2}
+  - {fileID: 11400000, guid: 7d8277739c686ff4b97b8c5b05df3690, type: 2}
+  - {fileID: 11400000, guid: 7d8277739c686ff4b97b8c5b05df3690, type: 2}
+  - {fileID: 11400000, guid: 7d8277739c686ff4b97b8c5b05df3690, type: 2}
+  - {fileID: 11400000, guid: 7d8277739c686ff4b97b8c5b05df3690, type: 2}
+  - {fileID: 11400000, guid: 7d8277739c686ff4b97b8c5b05df3690, type: 2}
+  - {fileID: 11400000, guid: 7d8277739c686ff4b97b8c5b05df3690, type: 2}
+  - {fileID: 11400000, guid: 7d8277739c686ff4b97b8c5b05df3690, type: 2}
+  - {fileID: 11400000, guid: 7d8277739c686ff4b97b8c5b05df3690, type: 2}
+  - {fileID: 11400000, guid: 7d8277739c686ff4b97b8c5b05df3690, type: 2}
+  - {fileID: 11400000, guid: 7d8277739c686ff4b97b8c5b05df3690, type: 2}
+  - {fileID: 11400000, guid: 7d8277739c686ff4b97b8c5b05df3690, type: 2}
+  - {fileID: 11400000, guid: 7d8277739c686ff4b97b8c5b05df3690, type: 2}
+  - {fileID: 11400000, guid: 7d8277739c686ff4b97b8c5b05df3690, type: 2}
+  - {fileID: 11400000, guid: 7d8277739c686ff4b97b8c5b05df3690, type: 2}
+  - {fileID: 11400000, guid: 7d8277739c686ff4b97b8c5b05df3690, type: 2}
+  - {fileID: 11400000, guid: 7d8277739c686ff4b97b8c5b05df3690, type: 2}
+  positions:
+  - {x: 1, y: 0, z: 1}
+  - {x: 3, y: 0, z: 1}
+  - {x: 1, y: 0, z: 3}
+  - {x: 3, y: 0, z: 3}
+  - {x: 1, y: 1, z: 1}
+  - {x: 3, y: 1, z: 1}
+  - {x: 1, y: 1, z: 3}
+  - {x: 3, y: 1, z: 3}
+  - {x: 1, y: 2, z: 1}
+  - {x: 3, y: 2, z: 1}
+  - {x: 1, y: 2, z: 3}
+  - {x: 3, y: 2, z: 3}
+  - {x: 1, y: 0, z: 2}
+  - {x: 2, y: 0, z: 3}
+  - {x: 3, y: 0, z: 2}
+  - {x: 1, y: 2, z: 2}
+  - {x: 2, y: 2, z: 3}
+  - {x: 2, y: 2, z: 1}
+  - {x: 3, y: 2, z: 2}
+  - {x: 0, y: 3, z: 0}
+  - {x: 0, y: 3, z: 1}
+  - {x: 0, y: 3, z: 2}
+  - {x: 0, y: 3, z: 3}
+  - {x: 0, y: 3, z: 4}
+  - {x: 1, y: 3, z: 0}
+  - {x: 1, y: 4, z: 1}
+  - {x: 1, y: 4, z: 2}
+  - {x: 1, y: 4, z: 3}
+  - {x: 1, y: 3, z: 4}
+  - {x: 2, y: 3, z: 0}
+  - {x: 2, y: 4, z: 1}
+  - {x: 2, y: 5, z: 2}
+  - {x: 2, y: 4, z: 3}
+  - {x: 2, y: 3, z: 4}
+  - {x: 3, y: 3, z: 0}
+  - {x: 3, y: 4, z: 1}
+  - {x: 3, y: 4, z: 2}
+  - {x: 3, y: 4, z: 3}
+  - {x: 3, y: 3, z: 4}
+  - {x: 4, y: 3, z: 0}
+  - {x: 4, y: 3, z: 1}
+  - {x: 4, y: 3, z: 2}
+  - {x: 4, y: 3, z: 3}
+  - {x: 4, y: 3, z: 4}
